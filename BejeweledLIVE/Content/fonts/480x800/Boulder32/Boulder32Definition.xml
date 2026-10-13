@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="UTF-8" ?>
+<XnaContent>
+  <Layers>
+    <Layer>fonts/480x800/Boulder32/Boulder32_layer0</Layer>
+    <Layer xOffset="4" yOffset="4">fonts/480x800/Boulder32/Boulder32_layer1</Layer>
+  </Layers>
+
+  <Offsets>
+    <Offset character=" " offsetX="0" offsetY="0"/>
+    <Offset character="0" offsetX="-7" offsetY="15"/>
+    <Offset character="1" offsetX="-8" offsetY="14"/>
+    <Offset character="2" offsetX="-7" offsetY="15"/>
+    <Offset character="3" offsetX="-9" offsetY="15"/>
+    <Offset character="4" offsetX="-9" offsetY="16"/>
+    <Offset character="5" offsetX="-8" offsetY="16"/>
+    <Offset character="6" offsetX="-7" offsetY="15"/>
+    <Offset character="7" offsetX="-8" offsetY="16"/>
+    <Offset character="8" offsetX="-7" offsetY="14"/>
+    <Offset character="9" offsetX="-7" offsetY="15"/>
+  </Offsets>
+
+  <Ascent>54</Ascent>
+  <Height>67</Height>
+  <StringWidthCaching>false</StringWidthCaching>
+</XnaContent>

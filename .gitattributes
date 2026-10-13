@@ -1,0 +1,7 @@
+* text=auto
+*.png binary
+*.ico binary
+*.bmp binary
+*.wav binary
+*.wma binary
+*.resources binary

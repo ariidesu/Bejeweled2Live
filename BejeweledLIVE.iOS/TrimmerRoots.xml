@@ -1,0 +1,5 @@
+<linker>
+  <assembly fullname="MonoGame.Framework">
+    <type fullname="Microsoft.Xna.Framework.Content.*" preserve="all" />
+  </assembly>
+</linker>

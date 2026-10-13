@@ -1,0 +1,151 @@
+<?xml version="1.0"?>
+<ResourceManifest>
+
+	<Resources id="3dImages">
+		<SetDefaults path="images/480x800" idprefix="IMAGE_"/>
+		<Image id="HYPERSPACE" path="hyperspace" r5g6b5="" nobits3d=""/>
+		<Image id="HYPERSPACE_INITIAL" path="nr_hyperspace_initial" r5g6b5="" nobits3d=""/>
+	</Resources>
+
+	<Resources id="Atlases">
+		<SetDefaults path="images/480x800" idprefix="IMAGE_" PNG="true" />
+		<Image id="EXTRAS"    path="Extras"  a4r4g4b4=""      />
+		<Image id="ADDITIVES" path="Additives"               PNG="true" />
+		<Image id="BOARD"     path="Board"   a4r4g4b4=""     PNG="true" />
+		<Image id="UI"        path="UI"      a8r8g8b8=""     PNG="true" />
+	</Resources>
+
+  <Resources id="Levels">
+    <SetDefaults path="images/480x800/backdrops" idprefix=""/>
+    <Level id="1" path ="back_"/>
+    <Level id="2" path ="back_"/>
+    <Level id="3" path ="back_"/>
+    <Level id="4" path ="back_"/>
+    <Level id="5" path ="back_"/>
+    <Level id="6" path ="back_"/>
+    <Level id="7" path ="back_"/>
+    <Level id="8" path ="back_"/>
+    <Level id="9" path ="back_"/>
+    <Level id="10" path ="back_"/>
+    <Level id="11" path ="back_"/>
+    <Level id="12" path ="back_"/>
+	<Level id="13" path ="back_"/>
+	<Level id="14" path ="back_"/>
+	<Level id="15" path ="back_"/>
+  </Resources>
+
+	<Resources id="LoadingThread">
+
+	<SetDefaults path="images/480x800/mainmenubkg" idprefix="IMAGE_"/>
+
+	<Image id="MAINMENU_BKG" path="background_layer" PNG="true" Premultiply="true"/>
+	<Image id="MAINMENU_BKG_LAYER1" path="bkg_layer1" PNG="true" Premultiply="true"/>
+	<Image id="MAINMENU_BKG_LAYER2" path="bkg_layer2" PNG="true" Premultiply="true"/>
+	<Image id="MAINMENU_BKG_LAYER3" path="bkg_layer3" PNG="true" Premultiply="true"/>
+	<!--<Image id="MAINMENU_GEM" path="gem_big" cols="8" rows="5"/>-->
+
+    <SetDefaults path="Content/fonts" idprefix="FONT_"/>
+    <!--<Font id="TEST" path="" isDefault=""/>
+    <Font id="LOCALIZED_TEST" path="480x800/LocalizedFontDefinition.xml"/>-->
+    <!--<Font id="LOCALIZED_TEST_FR" path="Localized/fr/LocalizedFontDefinition.xml"/>-->
+    <!--<Font id="LOCALIZED_TEST_JP" path="Localized/jp/LocalizedFontDefinition.xml"/>-->
+    <!--<Font id="LOCALIZED_TEST_ZH_CN" path="Localized/zh-cn/LocalizedFontDefinition.xml"/>-->
+    <!-- <Font id="BIG_BUTTON" path="480x800/QuincyCaps24_stroked/QuincyCaps24_StrokedDefinition.xml" ascent="-35" height="-45"/> -->
+    <Font id="BUTTON" path="480x800/QuincyCaps17_stroked/QuincyCaps17_StrokedDefinition.xml" />
+    <Font id="HUGE" path="480x800/QuincyCapsB36/QuincyCapsB36Definition.xml" />
+    <Font id="TINY_TEXT" path="480x800/GillSansMT11/GillSansMT11Definition.xml" />
+    <Font id="TEXT" path="480x800/GillSansMT14/GillSansMT14Definition.xml"/>
+    <Font id="BIG_TEXT" path="480x800/GillSansMT18/GillSansMT18Definition.xml" />
+    <!--<Font id="STATS" path="480x800/ContinuumBold9/ContinuumBold9Definition.xml" />-->
+    <Font id="LEADERBOARD" path="480x800/ContinuumBold12/ContinuumBold12Definition.xml" />
+    <Font id="MULTIPLIER_GEMS" path="480x800/ContinuumBold18Outline/ContinuumBold18OutlineDefinition.xml" />
+    <Font id="FLOAT_POINTS" path="480x800/Boulder32/Boulder32Definition.xml" />
+    <Font id="SCORE" path="480x800/ContinuumBold12/ContinuumBold12Definition.xml" />
+    <Font id="TIMER" path="480x800/ContinuumBold12/ContinuumBold12Definition.xml" />
+    <Font id="BOMB" path="480x800/ContinuumBold12/ContinuumBold12Definition.xml" />
+	<Font id="ACHIEVEMENT_NAME" path="480x800/ContinuumMedium16/ContinuumMedium16Definition.xml" />
+	<!--<Font id="ACHIEVEMENT_DESCRIPTION" path="480x800/ContinuumMedium11/ContinuumMedium11Definition.xml" />-->
+	<Font id="HEADING" path="480x800/QuincyCapsB28/QuincyCapsB28Definition.xml" />
+	<Font id="SPEED_BONUS" path="480x800/KabelUltra26/KabelUltra26Definition.xml" />
+
+	<!--<Font id="BUTTON" path="QuincyCaps_17_Stroked.dat"/> -->
+	<!--<Font id="BIG_BUTTON" path="QuincyCaps_24_Stroked.dat"/>-->
+	<!--<Font id="HUGE" path="QuincyCaps_BIG_26.dat"/>-->
+	<!--<Font id="TINY_TEXT" path="GillSansMT_11.dat"/>-->
+	<!--<Font id="TEXT" path="GillSansMT_14_Stroked.dat"/>-->
+	<!--<Font id="BIG_TEXT" path="GillSansMT_18_Stroked.dat"/>-->
+	<!--<Font id="STATS" path="ContinummBold_9.dat"/>-->
+	<!--<Font id="LEADERBOARD" path="ContinuumBold_12.dat"/>-->
+	<!--<Font id="MULTIPLIER_GEMS" path="ContinuumBold18Outline.dat"/>-->
+	<!--<Font id="FLOAT_POINTS" path="ContinuumBold20.dat"/>-->
+	<!--<Font id="SCORE" path="ContinuumBold_Score.dat"/>-->
+	<!--<Font id="TIMER" path="ContinuumBold_TimerGlow.dat"/>-->
+	<!--<Font id="BOMB" path="LiquidCrystal15.dat"/>-->
+
+	<SetDefaults path="sounds" idprefix="SOUND_"/>
+	<Sound id="BAD" path="bad2"/>
+	<Sound id="GEM_HIT" path="gemongem2"/>
+	<Sound id="CLICK" path="menuclick2"/>
+	<Sound id="SELECT" path="select"/>
+	<Sound id="MULTISHOT" path="multishot"/>
+	<!--<Sound id="ONEMINUTE" path="v_oneminute"/>-->
+	<Sound id="MAIN_GAME_START" path="mainmenu_gamestart"/>
+	<Sound id="MAIN_MOUSEOVER" path="mainmenu_mouseover"/>
+	<Sound id="BOMB_EXPLODE" path="bombexplode"/>
+	<Sound id="TRANSFER_BIG" path="gotsetbig2"/>
+	<Sound id="TRANSFER" path="gotset2"/>
+	<Sound id="COMBO_1" path="combo22"/>
+	<Sound id="COMBO_2" path="combo32"/>
+	<Sound id="COMBO_3" path="combo42"/>
+	<Sound id="COMBO_4" path="combo52"/>
+	<Sound id="COMBO_5" path="combo62"/>
+	<Sound id="COMBO_6" path="combo72"/>
+	<Sound id="SPEED_1" path="speedmatch1"/>
+	<Sound id="SPEED_2" path="speedmatch2"/>
+	<Sound id="SPEED_3" path="speedmatch3"/>
+	<Sound id="SPEED_4" path="speedmatch4"/>
+	<Sound id="SPEED_5" path="speedmatch5"/>
+	<Sound id="SPEED_6" path="speedmatch6"/>
+	<Sound id="SPEED_7" path="speedmatch7"/>
+	<Sound id="SPEED_8" path="speedmatch8"/>
+	<Sound id="SPEED_9" path="speedmatch9"/>
+	<Sound id="HYPERGEM_CREATE" path="hypergem_creation"/>
+	<Sound id="HYPERGEM_DESTROYED" path="hypergem_destroyed"/>
+	<Sound id="EXPLODE" path="explode2"/>
+	<Sound id="WARNING" path="countdown_warning"/>
+	<Sound id="WHIRLPOOL_START" path="whirlpoolStart"/>
+	<Sound id="WHIRLPOOL_END" path="whirlpoolEnd"/>
+
+
+	<Sound id="GOOD" path="voice_good"/>
+    <Sound id="EXCELLENT" path="voice_excellent"/>
+    <Sound id="AWESOME" path="voice_awesome"/>
+	<Sound id="SPECTACULAR" path="voice_spectacular"/>
+	<Sound id="EXTRAORDINARY" path="voice_extraordinary"/>
+	<Sound id="UNBELIEVABLE" path="voice_unbelievable"/>
+	<Sound id="GAME_OVER" path="voice_gameover"/>
+	<Sound id="GO" path="voice_go"/>
+	<Sound id="LEVEL_COMPLETE" path="voice_levelcomplete"/>
+	<Sound id="NO_MORE_MOVES" path="voice_nomoremoves"/>
+	<Sound id="TIME_UP" path="voice_timeup"/>
+	<Sound id="BLAZING_SPEED" path="voice_blazingspeed"/>
+
+
+	<Sound id="ELECTRO_START" path="electro_start"/>
+	<Sound id="ELECTRO_PATH" path="electro_path"/>
+	<Sound id="ELECTRO_EXPLODE" path="electro_explode"/>
+
+	<Sound id="BURNING_SPEED" path="BurningSpeed"/>
+	<Sound id="LIGHTNING_MAKE" path="Lightning_make"/>
+	<Sound id="MULTIPLIER_MAKE" path="multiplier"/>
+	<Sound id="MULTIPLIER_TRIGGER" path="multiplier_up2_3"/>
+
+     <SetDefaults path="music" idprefix="MUSIC_"/>
+	<Music id="GameOver" path="game_over"/>
+	<Music id="MainMenu" path="main_menu"/>
+	<Music id="Classic" path="classic_main"/>
+	<Music id="Action" path="action_main"/>
+    <Music id="Endless" path="zendless"/>
+
+	</Resources>
+</ResourceManifest>

@@ -1,0 +1,21 @@
+<?xml version="1.0"?>
+<ResourceManifest>
+  <Resources id="LoadingThread">
+
+    <SetDefaults path="sounds/en" idprefix="SOUND_"/>
+
+    <Sound id="GOOD" path="voice_good"/>
+    <Sound id="EXCELLENT" path="voice_excellent"/>
+    <Sound id="AWESOME" path="voice_awesome"/>
+    <Sound id="SPECTACULAR" path="voice_spectacular"/>
+    <Sound id="EXTRAORDINARY" path="voice_extraordinary"/>
+    <Sound id="UNBELIEVABLE" path="voice_unbelievable"/>
+    <Sound id="GAME_OVER" path="voice_gameover"/>
+    <Sound id="GO" path="voice_go"/>
+    <Sound id="LEVEL_COMPLETE" path="voice_levelcomplete"/>
+    <Sound id="NO_MORE_MOVES" path="voice_nomoremoves"/>
+    <Sound id="TIME_UP" path="voice_timeup"/>
+    <Sound id="BLAZING_SPEED" path="voice_blazingspeed"/>
+
+  </Resources>
+</ResourceManifest>

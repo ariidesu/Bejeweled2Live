@@ -1,0 +1,1219 @@
+/outputDir:bin/$(Platform)
+/intermediateDir:obj/$(Platform)
+/platform:DesktopGL
+/config:
+/profile:Reach
+/compress:False
+
+#begin fonts/480x800/Boulder32/Boulder32_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=0
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/Boulder32/Boulder32_layer0.png
+
+#begin fonts/480x800/Boulder32/Boulder32_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=0
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/Boulder32/Boulder32_layer1.png
+
+#begin fonts/480x800/ContinuumBold12/ContinuumBold12_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/ContinuumBold12/ContinuumBold12_layer0.png
+
+#begin fonts/480x800/ContinuumBold18Outline/ContinuumBold18Outline_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/ContinuumBold18Outline/ContinuumBold18Outline_layer0.png
+
+#begin fonts/480x800/ContinuumBold18Outline/ContinuumBold18Outline_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/ContinuumBold18Outline/ContinuumBold18Outline_layer1.png
+
+#begin fonts/480x800/ContinuumMedium16/ContinuumMedium16_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/ContinuumMedium16/ContinuumMedium16_layer0.png
+
+#begin fonts/480x800/ContinuumMedium16/ContinuumMedium16_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/ContinuumMedium16/ContinuumMedium16_layer1.png
+
+#begin fonts/480x800/ContinuumMedium16/ContinuumMedium16_layer2.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/ContinuumMedium16/ContinuumMedium16_layer2.png
+
+#begin fonts/480x800/GillSansMT11/GillSansMT11_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/GillSansMT11/GillSansMT11_layer0.png
+
+#begin fonts/480x800/GillSansMT14/GillSansMT14_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/GillSansMT14/GillSansMT14_layer0.png
+
+#begin fonts/480x800/GillSansMT14/GillSansMT14_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/GillSansMT14/GillSansMT14_layer1.png
+
+#begin fonts/480x800/GillSansMT14/GillSansMT14_layer2.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/GillSansMT14/GillSansMT14_layer2.png
+
+#begin fonts/480x800/GillSansMT18/GillSansMT18_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/GillSansMT18/GillSansMT18_layer0.png
+
+#begin fonts/480x800/GillSansMT18/GillSansMT18_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/GillSansMT18/GillSansMT18_layer1.png
+
+#begin fonts/480x800/GillSansMT18/GillSansMT18_layer2.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/GillSansMT18/GillSansMT18_layer2.png
+
+#begin fonts/480x800/KabelUltra26/KabelUltra26_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/KabelUltra26/KabelUltra26_layer0.png
+
+#begin fonts/480x800/KabelUltra26/KabelUltra26_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/KabelUltra26/KabelUltra26_layer1.png
+
+#begin fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_Stroked_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_Stroked_layer0.png
+
+#begin fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_Stroked_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_Stroked_layer1.png
+
+#begin fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_Stroked_layer2.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_Stroked_layer2.png
+
+#begin fonts/480x800/QuincyCapsB28/QuincyCapsB28_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/QuincyCapsB28/QuincyCapsB28_layer0.png
+
+#begin fonts/480x800/QuincyCapsB28/QuincyCapsB28_layer1.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/QuincyCapsB28/QuincyCapsB28_layer1.png
+
+#begin fonts/480x800/QuincyCapsB36/QuincyCapsB36_layer0.png
+/importer:TextureImporter
+/processor:FontTextureProcessor
+/processorParam:FirstCharacter=!
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:fonts/480x800/QuincyCapsB36/QuincyCapsB36_layer0.png
+
+#begin images/480x800/backdrops/back_landscape1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape1.png
+
+#begin images/480x800/backdrops/back_landscape10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape10.png
+
+#begin images/480x800/backdrops/back_landscape11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape11.png
+
+#begin images/480x800/backdrops/back_landscape12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape12.png
+
+#begin images/480x800/backdrops/back_landscape13.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape13.png
+
+#begin images/480x800/backdrops/back_landscape14.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape14.png
+
+#begin images/480x800/backdrops/back_landscape15.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape15.png
+
+#begin images/480x800/backdrops/back_landscape2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape2.png
+
+#begin images/480x800/backdrops/back_landscape3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape3.png
+
+#begin images/480x800/backdrops/back_landscape4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape4.png
+
+#begin images/480x800/backdrops/back_landscape5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape5.png
+
+#begin images/480x800/backdrops/back_landscape6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape6.png
+
+#begin images/480x800/backdrops/back_landscape7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape7.png
+
+#begin images/480x800/backdrops/back_landscape8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape8.png
+
+#begin images/480x800/backdrops/back_landscape9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_landscape9.png
+
+#begin images/480x800/backdrops/back_portrait1.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait1.png
+
+#begin images/480x800/backdrops/back_portrait10.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait10.png
+
+#begin images/480x800/backdrops/back_portrait11.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait11.png
+
+#begin images/480x800/backdrops/back_portrait12.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait12.png
+
+#begin images/480x800/backdrops/back_portrait13.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait13.png
+
+#begin images/480x800/backdrops/back_portrait14.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait14.png
+
+#begin images/480x800/backdrops/back_portrait15.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait15.png
+
+#begin images/480x800/backdrops/back_portrait2.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait2.png
+
+#begin images/480x800/backdrops/back_portrait3.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait3.png
+
+#begin images/480x800/backdrops/back_portrait4.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait4.png
+
+#begin images/480x800/backdrops/back_portrait5.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait5.png
+
+#begin images/480x800/backdrops/back_portrait6.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait6.png
+
+#begin images/480x800/backdrops/back_portrait7.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait7.png
+
+#begin images/480x800/backdrops/back_portrait8.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait8.png
+
+#begin images/480x800/backdrops/back_portrait9.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/backdrops/back_portrait9.png
+
+#begin images/480x800/Extras.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/Extras.png
+
+#begin images/480x800/hyperspace.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/hyperspace.png
+
+#begin images/480x800/nr_hyperspace_initial.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:images/480x800/nr_hyperspace_initial.png
+
+#begin music/action_main.wma
+/importer:WmaImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:music/action_main.wma
+
+#begin music/classic_main.wma
+/importer:WmaImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:music/classic_main.wma
+
+#begin music/game_over.wma
+/importer:WmaImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:music/game_over.wma
+
+#begin music/main_menu.wma
+/importer:WmaImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:music/main_menu.wma
+
+#begin music/zendless.wma
+/importer:WmaImporter
+/processor:SongProcessor
+/processorParam:Quality=Best
+/build:music/zendless.wma
+
+#begin POP_CAP_LOGO.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:POP_CAP_LOGO.png
+
+#begin POP_CAP_LOGO_RING.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:POP_CAP_LOGO_RING.png
+
+#begin POP_CAP_LOGO_TEXT.png
+/importer:TextureImporter
+/processor:TextureProcessor
+/processorParam:ColorKeyEnabled=False
+/processorParam:GenerateMipmaps=False
+/processorParam:PremultiplyAlpha=False
+/processorParam:TextureFormat=Color
+/build:POP_CAP_LOGO_TEXT.png
+
+#begin sounds/bad2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/bad2.wav
+
+#begin sounds/bombexplode.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/bombexplode.wav
+
+#begin sounds/BurningSpeed.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/BurningSpeed.wav
+
+#begin sounds/combo22.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/combo22.wav
+
+#begin sounds/combo32.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/combo32.wav
+
+#begin sounds/combo42.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/combo42.wav
+
+#begin sounds/combo52.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/combo52.wav
+
+#begin sounds/combo62.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/combo62.wav
+
+#begin sounds/combo72.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/combo72.wav
+
+#begin sounds/countdown_warning.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/countdown_warning.wav
+
+#begin sounds/countdown_warning2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/countdown_warning2.wav
+
+#begin sounds/de/voice_awesome.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_awesome.wav
+
+#begin sounds/de/voice_blazingspeed.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_blazingspeed.wav
+
+#begin sounds/de/voice_excellent.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_excellent.wav
+
+#begin sounds/de/voice_extraordinary.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_extraordinary.wav
+
+#begin sounds/de/voice_gameover.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_gameover.wav
+
+#begin sounds/de/voice_go.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_go.wav
+
+#begin sounds/de/voice_good.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_good.wav
+
+#begin sounds/de/voice_levelcomplete.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_levelcomplete.wav
+
+#begin sounds/de/voice_nomoremoves.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_nomoremoves.wav
+
+#begin sounds/de/voice_spectacular.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_spectacular.wav
+
+#begin sounds/de/voice_timeup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_timeup.wav
+
+#begin sounds/de/voice_unbelievable.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/de/voice_unbelievable.wav
+
+#begin sounds/electro_explode.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/electro_explode.wav
+
+#begin sounds/electro_path.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/electro_path.wav
+
+#begin sounds/electro_start.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/electro_start.wav
+
+#begin sounds/en/voice_awesome.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_awesome.wav
+
+#begin sounds/en/voice_blazingspeed.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_blazingspeed.wav
+
+#begin sounds/en/voice_excellent.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_excellent.wav
+
+#begin sounds/en/voice_extraordinary.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_extraordinary.wav
+
+#begin sounds/en/voice_gameover.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_gameover.wav
+
+#begin sounds/en/voice_go.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_go.wav
+
+#begin sounds/en/voice_good.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_good.wav
+
+#begin sounds/en/voice_levelcomplete.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_levelcomplete.wav
+
+#begin sounds/en/voice_nomoremoves.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_nomoremoves.wav
+
+#begin sounds/en/voice_spectacular.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_spectacular.wav
+
+#begin sounds/en/voice_timeup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_timeup.wav
+
+#begin sounds/en/voice_unbelievable.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/en/voice_unbelievable.wav
+
+#begin sounds/es/voice_awesome.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_awesome.wav
+
+#begin sounds/es/voice_blazingspeed.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_blazingspeed.wav
+
+#begin sounds/es/voice_excellent.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_excellent.wav
+
+#begin sounds/es/voice_extraordinary.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_extraordinary.wav
+
+#begin sounds/es/voice_gameover.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_gameover.wav
+
+#begin sounds/es/voice_go.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_go.wav
+
+#begin sounds/es/voice_good.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_good.wav
+
+#begin sounds/es/voice_levelcomplete.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_levelcomplete.wav
+
+#begin sounds/es/voice_nomoremoves.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_nomoremoves.wav
+
+#begin sounds/es/voice_spectacular.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_spectacular.wav
+
+#begin sounds/es/voice_timeup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_timeup.wav
+
+#begin sounds/es/voice_unbelievable.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/es/voice_unbelievable.wav
+
+#begin sounds/explode2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/explode2.wav
+
+#begin sounds/fr/voice_awesome.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_awesome.wav
+
+#begin sounds/fr/voice_blazingspeed.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_blazingspeed.wav
+
+#begin sounds/fr/voice_excellent.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_excellent.wav
+
+#begin sounds/fr/voice_extraordinary.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_extraordinary.wav
+
+#begin sounds/fr/voice_gameover.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_gameover.wav
+
+#begin sounds/fr/voice_go.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_go.wav
+
+#begin sounds/fr/voice_good.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_good.wav
+
+#begin sounds/fr/voice_levelcomplete.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_levelcomplete.wav
+
+#begin sounds/fr/voice_nomoremoves.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_nomoremoves.wav
+
+#begin sounds/fr/voice_spectacular.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_spectacular.wav
+
+#begin sounds/fr/voice_timeup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_timeup.wav
+
+#begin sounds/fr/voice_unbelievable.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/fr/voice_unbelievable.wav
+
+#begin sounds/gemongem2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/gemongem2.wav
+
+#begin sounds/gotset2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/gotset2.wav
+
+#begin sounds/gotsetbig2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/gotsetbig2.wav
+
+#begin sounds/hypergem_creation.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/hypergem_creation.wav
+
+#begin sounds/hypergem_destroyed.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/hypergem_destroyed.wav
+
+#begin sounds/it/voice_awesome.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_awesome.wav
+
+#begin sounds/it/voice_blazingspeed.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_blazingspeed.wav
+
+#begin sounds/it/voice_excellent.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_excellent.wav
+
+#begin sounds/it/voice_extraordinary.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_extraordinary.wav
+
+#begin sounds/it/voice_gameover.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_gameover.wav
+
+#begin sounds/it/voice_go.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_go.wav
+
+#begin sounds/it/voice_good.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_good.wav
+
+#begin sounds/it/voice_levelcomplete.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_levelcomplete.wav
+
+#begin sounds/it/voice_nomoremoves.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_nomoremoves.wav
+
+#begin sounds/it/voice_spectacular.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_spectacular.wav
+
+#begin sounds/it/voice_timeup.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_timeup.wav
+
+#begin sounds/it/voice_unbelievable.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/it/voice_unbelievable.wav
+
+#begin sounds/Lightning_make.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/Lightning_make.wav
+
+#begin sounds/mainmenu_gamestart.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/mainmenu_gamestart.wav
+
+#begin sounds/mainmenu_mouseover.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/mainmenu_mouseover.wav
+
+#begin sounds/menuclick2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/menuclick2.wav
+
+#begin sounds/multiplier.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/multiplier.wav
+
+#begin sounds/multiplier_up2_3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/multiplier_up2_3.wav
+
+#begin sounds/multishot.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/multishot.wav
+
+#begin sounds/select.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/select.wav
+
+#begin sounds/speedmatch1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch1.wav
+
+#begin sounds/speedmatch2.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch2.wav
+
+#begin sounds/speedmatch3.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch3.wav
+
+#begin sounds/speedmatch4.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch4.wav
+
+#begin sounds/speedmatch5.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch5.wav
+
+#begin sounds/speedmatch6.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch6.wav
+
+#begin sounds/speedmatch7.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch7.wav
+
+#begin sounds/speedmatch8.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch8.wav
+
+#begin sounds/speedmatch9.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/speedmatch9.wav
+
+#begin sounds/warning1.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/warning1.wav
+
+#begin sounds/whirlpoolEnd.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/whirlpoolEnd.wav
+
+#begin sounds/whirlpoolStart.wav
+/importer:WavImporter
+/processor:SoundEffectProcessor
+/processorParam:Quality=Best
+/build:sounds/whirlpoolStart.wav
+
+#begin fonts/480x800/Boulder32/Boulder32Definition.xml
+/copy:fonts/480x800/Boulder32/Boulder32Definition.xml
+
+#begin fonts/480x800/ContinuumBold12/ContinuumBold12Definition.xml
+/copy:fonts/480x800/ContinuumBold12/ContinuumBold12Definition.xml
+
+#begin fonts/480x800/ContinuumBold18Outline/ContinuumBold18OutlineDefinition.xml
+/copy:fonts/480x800/ContinuumBold18Outline/ContinuumBold18OutlineDefinition.xml
+
+#begin fonts/480x800/ContinuumMedium16/ContinuumMedium16Definition.xml
+/copy:fonts/480x800/ContinuumMedium16/ContinuumMedium16Definition.xml
+
+#begin fonts/480x800/GillSansMT11/GillSansMT11Definition.xml
+/copy:fonts/480x800/GillSansMT11/GillSansMT11Definition.xml
+
+#begin fonts/480x800/GillSansMT14/GillSansMT14Definition.xml
+/copy:fonts/480x800/GillSansMT14/GillSansMT14Definition.xml
+
+#begin fonts/480x800/GillSansMT18/GillSansMT18Definition.xml
+/copy:fonts/480x800/GillSansMT18/GillSansMT18Definition.xml
+
+#begin fonts/480x800/KabelUltra26/KabelUltra26Definition.xml
+/copy:fonts/480x800/KabelUltra26/KabelUltra26Definition.xml
+
+#begin fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_StrokedDefinition.xml
+/copy:fonts/480x800/QuincyCaps17_Stroked/QuincyCaps17_StrokedDefinition.xml
+
+#begin fonts/480x800/QuincyCapsB28/QuincyCapsB28Definition.xml
+/copy:fonts/480x800/QuincyCapsB28/QuincyCapsB28Definition.xml
+
+#begin fonts/480x800/QuincyCapsB36/QuincyCapsB36Definition.xml
+/copy:fonts/480x800/QuincyCapsB36/QuincyCapsB36Definition.xml
+
+#begin images/480x800/Additives.png
+/copy:images/480x800/Additives.png
+
+#begin images/480x800/Board.png
+/copy:images/480x800/Board.png
+
+#begin images/480x800/mainmenubkg/background_layer.png
+/copy:images/480x800/mainmenubkg/background_layer.png
+
+#begin images/480x800/mainmenubkg/bkg_layer1.png
+/copy:images/480x800/mainmenubkg/bkg_layer1.png
+
+#begin images/480x800/mainmenubkg/bkg_layer2.png
+/copy:images/480x800/mainmenubkg/bkg_layer2.png
+
+#begin images/480x800/mainmenubkg/bkg_layer3.png
+/copy:images/480x800/mainmenubkg/bkg_layer3.png
+
+#begin images/480x800/UI.png
+/copy:images/480x800/UI.png
+
+#begin resources_320x480.xml
+/copy:resources_320x480.xml
+
+#begin resources_480x800.xml
+/copy:resources_480x800.xml
+
+#begin sound_de.xml
+/copy:sound_de.xml
+
+#begin sound_en.xml
+/copy:sound_en.xml
+
+#begin sound_es.xml
+/copy:sound_es.xml
+
+#begin sound_fr.xml
+/copy:sound_fr.xml
+
+#begin sound_it.xml
+/copy:sound_it.xml
