@@ -14,7 +14,7 @@
     <PackageReference Include="MonoGame.Framework.Android" Version="3.8.4.1" />
     <PackageReference Include="MonoGame.Content.Builder.Task" Version="3.8.4.1" />
     <ProjectReference Include="../BejeweledLIVE/BejeweledLIVE.csproj" />
-    <MonoGameContentReference Include="../BejeweledLIVE/Content/Content.mgcb" />
+    <MonoGameContentReference Include="../BejeweledLIVE/Content/Content.mgcb" Link="Content/Content.mgcb" />
     <TrimmerRootDescriptor Include="TrimmerRoots.xml" />
   </ItemGroup>
 </Project>
