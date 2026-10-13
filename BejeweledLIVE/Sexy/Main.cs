@@ -23,10 +23,11 @@ namespace Sexy
 			catch
 			{
 			}
-			this.graphics.IsFullScreen = false;
+			bool isAndroid = PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android;
+			this.graphics.IsFullScreen = isAndroid || PlatformInfo.MonoGamePlatform == MonoGamePlatform.iOS;
 			base.IsMouseVisible = true;
-			this.graphics.PreferredBackBufferWidth = Constants.StartWidth;
-			this.graphics.PreferredBackBufferHeight = Constants.StartHeight;
+			this.graphics.PreferredBackBufferWidth = isAndroid ? base.Window.ClientBounds.Width : Constants.StartWidth;
+			this.graphics.PreferredBackBufferHeight = isAndroid ? base.Window.ClientBounds.Height : Constants.StartHeight;
 			if (PlatformInfo.MonoGamePlatform != MonoGamePlatform.Android && PlatformInfo.MonoGamePlatform != MonoGamePlatform.iOS)
 			{
 				base.Window.AllowUserResizing = true;
@@ -150,6 +151,19 @@ namespace Sexy
 
 		protected override void Update(GameTime gameTime)
 		{
+			if (PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android)
+			{
+				DisplayMode display = base.GraphicsDevice.DisplayMode;
+				GraphicsDeviceManager manager = GraphicsState.mGraphicsDeviceManager;
+				if (display.Width > 0 && display.Height > 0 &&
+					(manager.PreferredBackBufferWidth != display.Width || manager.PreferredBackBufferHeight != display.Height))
+				{
+					manager.PreferredBackBufferWidth = display.Width;
+					manager.PreferredBackBufferHeight = display.Height;
+					manager.ApplyChanges();
+				}
+				this.SetupInterfaceOrientation();
+			}
 			if (this.windowResizePending)
 			{
 				int width = base.Window.ClientBounds.Width;
@@ -261,9 +275,13 @@ namespace Sexy
 		{
 			if (GlobalStaticVars.gSexyAppBase != null)
 			{
-				if (base.Window.AllowUserResizing)
+				if (base.Window.AllowUserResizing || PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android)
 				{
-					UI_ORIENTATION orientation = base.Window.ClientBounds.Width > base.Window.ClientBounds.Height
+					Rectangle bounds = PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android
+						? new Rectangle(0, 0, base.GraphicsDevice.PresentationParameters.BackBufferWidth,
+							base.GraphicsDevice.PresentationParameters.BackBufferHeight) : base.Window.ClientBounds;
+					if (bounds.Width <= 0 || bounds.Height <= 0) return;
+					UI_ORIENTATION orientation = bounds.Width > bounds.Height
 						? UI_ORIENTATION.UI_ORIENTATION_LANDSCAPE_LEFT : UI_ORIENTATION.UI_ORIENTATION_PORTRAIT;
 					if (GlobalStaticVars.gSexyAppBase.GetOrientation() != orientation)
 					{
@@ -295,6 +313,7 @@ namespace Sexy
 				Main.SetupOrientationMatrix(Main.orientationUsed);
 			}
 			this.UpdateVirtualDimensions();
+			Viewport viewport = base.GraphicsDevice.Viewport;
 			int width = this.graphics.mScreenWidth;
 			int height = this.graphics.mScreenHeight;
 			if (this.windowRenderTarget == null || this.windowRenderTarget.Width != width || this.windowRenderTarget.Height != height)
@@ -312,6 +331,7 @@ namespace Sexy
 			this.frameRenderTarget = null;
 			GraphicsState.RenderOffset = Vector2.Zero;
 			base.GraphicsDevice.SetRenderTarget(null);
+			base.GraphicsDevice.Viewport = viewport;
 			base.GraphicsDevice.Clear(Color.Black);
 			this.windowSpriteBatch ??= new SpriteBatch(base.GraphicsDevice);
 			this.windowSpriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Opaque, SamplerState.LinearClamp);
