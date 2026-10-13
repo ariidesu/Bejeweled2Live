@@ -51,7 +51,7 @@
     <!--<Font id="LOCALIZED_TEST_JP" path="Localized/jp/LocalizedFontDefinition.xml"/>-->
     <!--<Font id="LOCALIZED_TEST_ZH_CN" path="Localized/zh-cn/LocalizedFontDefinition.xml"/>-->
     <!-- <Font id="BIG_BUTTON" path="480x800/QuincyCaps24_stroked/QuincyCaps24_StrokedDefinition.xml" ascent="-35" height="-45"/> -->
-    <Font id="BUTTON" path="480x800/QuincyCaps17_stroked/QuincyCaps17_StrokedDefinition.xml" />
+    <Font id="BUTTON" path="480x800/QuincyCaps17_Stroked/QuincyCaps17_StrokedDefinition.xml" />
     <Font id="HUGE" path="480x800/QuincyCapsB36/QuincyCapsB36Definition.xml" />
     <Font id="TINY_TEXT" path="480x800/GillSansMT11/GillSansMT11Definition.xml" />
     <Font id="TEXT" path="480x800/GillSansMT14/GillSansMT14Definition.xml"/>
