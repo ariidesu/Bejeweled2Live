@@ -23,11 +23,11 @@ namespace Sexy
 			catch
 			{
 			}
-			bool isAndroid = PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android;
-			this.graphics.IsFullScreen = isAndroid || PlatformInfo.MonoGamePlatform == MonoGamePlatform.iOS;
+			bool isPhone = PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android || PlatformInfo.MonoGamePlatform == MonoGamePlatform.iOS;
+			this.graphics.IsFullScreen = isPhone;
 			base.IsMouseVisible = true;
-			this.graphics.PreferredBackBufferWidth = isAndroid ? base.Window.ClientBounds.Width : Constants.StartWidth;
-			this.graphics.PreferredBackBufferHeight = isAndroid ? base.Window.ClientBounds.Height : Constants.StartHeight;
+			this.graphics.PreferredBackBufferWidth = isPhone ? Math.Max(1, base.Window.ClientBounds.Width) : Constants.StartWidth;
+			this.graphics.PreferredBackBufferHeight = isPhone ? Math.Max(1, base.Window.ClientBounds.Height) : Constants.StartHeight;
 			if (PlatformInfo.MonoGamePlatform != MonoGamePlatform.Android && PlatformInfo.MonoGamePlatform != MonoGamePlatform.iOS)
 			{
 				base.Window.AllowUserResizing = true;
@@ -151,15 +151,19 @@ namespace Sexy
 
 		protected override void Update(GameTime gameTime)
 		{
-			if (PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android)
+			if (PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android || PlatformInfo.MonoGamePlatform == MonoGamePlatform.iOS)
 			{
-				DisplayMode display = base.GraphicsDevice.DisplayMode;
+				Rectangle bounds = PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android
+					? new Rectangle(0, 0, base.GraphicsDevice.DisplayMode.Width, base.GraphicsDevice.DisplayMode.Height)
+					: base.Window.ClientBounds;
 				GraphicsDeviceManager manager = GraphicsState.mGraphicsDeviceManager;
-				if (display.Width > 0 && display.Height > 0 &&
-					(manager.PreferredBackBufferWidth != display.Width || manager.PreferredBackBufferHeight != display.Height))
+				if (bounds.Width > 0 && bounds.Height > 0 &&
+					(manager.PreferredBackBufferWidth != bounds.Width || manager.PreferredBackBufferHeight != bounds.Height ||
+					base.GraphicsDevice.PresentationParameters.BackBufferWidth != bounds.Width ||
+					base.GraphicsDevice.PresentationParameters.BackBufferHeight != bounds.Height))
 				{
-					manager.PreferredBackBufferWidth = display.Width;
-					manager.PreferredBackBufferHeight = display.Height;
+					manager.PreferredBackBufferWidth = bounds.Width;
+					manager.PreferredBackBufferHeight = bounds.Height;
 					manager.ApplyChanges();
 				}
 				this.SetupInterfaceOrientation();
@@ -275,9 +279,9 @@ namespace Sexy
 		{
 			if (GlobalStaticVars.gSexyAppBase != null)
 			{
-				if (base.Window.AllowUserResizing || PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android)
+				if (base.Window.AllowUserResizing || PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android || PlatformInfo.MonoGamePlatform == MonoGamePlatform.iOS)
 				{
-					Rectangle bounds = PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android
+					Rectangle bounds = PlatformInfo.MonoGamePlatform == MonoGamePlatform.Android || PlatformInfo.MonoGamePlatform == MonoGamePlatform.iOS
 						? new Rectangle(0, 0, base.GraphicsDevice.PresentationParameters.BackBufferWidth,
 							base.GraphicsDevice.PresentationParameters.BackBufferHeight) : base.Window.ClientBounds;
 					if (bounds.Width <= 0 || bounds.Height <= 0) return;
@@ -313,7 +317,6 @@ namespace Sexy
 				Main.SetupOrientationMatrix(Main.orientationUsed);
 			}
 			this.UpdateVirtualDimensions();
-			Viewport viewport = base.GraphicsDevice.Viewport;
 			int width = this.graphics.mScreenWidth;
 			int height = this.graphics.mScreenHeight;
 			if (this.windowRenderTarget == null || this.windowRenderTarget.Width != width || this.windowRenderTarget.Height != height)
@@ -331,7 +334,9 @@ namespace Sexy
 			this.frameRenderTarget = null;
 			GraphicsState.RenderOffset = Vector2.Zero;
 			base.GraphicsDevice.SetRenderTarget(null);
-			base.GraphicsDevice.Viewport = viewport;
+			base.GraphicsDevice.Viewport = new Viewport(0, 0,
+				base.GraphicsDevice.PresentationParameters.BackBufferWidth,
+				base.GraphicsDevice.PresentationParameters.BackBufferHeight);
 			base.GraphicsDevice.Clear(Color.Black);
 			this.windowSpriteBatch ??= new SpriteBatch(base.GraphicsDevice);
 			this.windowSpriteBatch.Begin(SpriteSortMode.Deferred, BlendState.Opaque, SamplerState.LinearClamp);
